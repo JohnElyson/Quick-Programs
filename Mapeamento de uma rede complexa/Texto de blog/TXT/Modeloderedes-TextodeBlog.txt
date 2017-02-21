@@ -1,0 +1,53 @@
+﻿A cada ano cresce o número de patologias e doenças relacionadas à visão e os olhos são indicadores de saúde. Foi notado ao longo do tempo que os olhos sofrem alterações quando se tem algum tipo de doença ou patologia que atinja a área, na grande maioria das vezes revelando uma vermelhidão que é aparentemente caótica e aleatória. Pensando nisso foram fotografados os olhos de muitas pessoas com diferentes condições oculares como os exemplos a seguir: 
+ Resultado de imagem para fotos de vasos sanguineos nos olhos  Resultado de imagem para fotos de vasos sanguineos nos olhos  Imagem relacionada 
+
+
+Por ter todo esse material disponível resolvemos analisar o fluxo de vasos sanguíneos nos olhos, mas seria muito trabalho e demandaria muitas pessoas para conseguir executar essa tarefa, então analisamos em em algumas condições específicas.
+Essa é uma das 17 amostras que foram analisadas, nessa análise apresento três categorias de olhos: os saudáveis, com glaucoma e com retinopatia diabética.
+
+
+1. O Olho saudável:
+ Vazos sanguíneos num olho normal 
+
+Foi selecionada uma foto de um olho saudável e convertida para preto e branco para facilitar a análise.
+Após ter-se essa imagem em mãos entramos no próximo passo do processo, vamos fazer um grafo no qual cada ponto representa uma localização que poderá pertencer a alguma das três categorias: 
+A. Pontos em que a rede muda de direção;
+ B.  Pontos em que a rede se divide em N caminhos; 
+C. Pontos terminais da rede.
+
+Cada aresta representa uma ligação entre esses pontos e pode possuir pesos que indicam seu diâmetro físico.
+
+
+Para construir esse grafo, foi utilizado o programa GEPHI que pode ser encontrado clicando no link.
+Com os recursos do GEPHI, pudemos fazer um grafo com a seguinte aparência:
+ sdfsdfsdfsdf  
+
+
+Após ter esse grafo montado, partimos para analisar algumas métricas que possam nos informar algo sobre ele.
+As métricas que tenho em mãos são:
+
+Tamanho da rede:X
+Número de arestas:X
+Grau Médio:X
+Grau Ponderado Médio:X
+Diâmetro da rede:X
+Densidade do gráfico:X
+Máximo de componentes conectados:X
+Coeficiente de clustering médio:X
+
+
+Onde, X é um número que pode ser real ou inteiro dependendo do tipo de medida.
+
+Tamanho da rede: Essa medida representa quantos pontos o grafo possui;
+Número de arestas: Essa medida representa quantas arestas o grafo possui;
+Grau Médio: Uma relação entre a densidade da rede e a probabilidade de conexão entre os pontos;
+Grau Ponderado Médio: Número médio de ligação de todos os graus;
+Diâmetro da rede:O caminho mais longo no grafo;
+Densidade da rede:Uma equação entre o número de arestas e o número de arestas possíveis;
+Máximo de componentes conectados:Número de nós no maior cluster da rede;
+Coeficiente de clustering médio: Média dos clusters na rede.
+
+
+
+
+Com essas métricas em mãos agora podemos compará-los a outros trabalhos e buscar uma análise mais profunda.
